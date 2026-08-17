@@ -1,4 +1,4 @@
-// ---------- Boot sequence typewriter ----------
+// BOOT SEQUENCE TOP PAGE DESIGN
 const bootLines = [
   "> initializing session...",
   "> user: JOHN MARK C. PASCUA",
@@ -36,7 +36,7 @@ function typeBoot(){
 }
 typeBoot();
 
-// ---------- Mobile nav toggle ----------
+// MOBILE DEVICE NAVIGATION
 const navToggle = document.getElementById('navToggle');
 const navLinks = document.getElementById('navLinks');
 navToggle.addEventListener('click', () => {
@@ -50,7 +50,7 @@ navLinks.querySelectorAll('a').forEach(a => {
   });
 });
 
-// ---------- Scroll reveal ----------
+// SCROLL WHEEL REVEAL 
 const revealEls = document.querySelectorAll('.reveal');
 if('IntersectionObserver' in window && !reduceMotion){
   const io = new IntersectionObserver((entries) => {
