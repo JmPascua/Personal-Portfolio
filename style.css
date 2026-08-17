@@ -67,7 +67,7 @@ a{color:inherit;}
   display:inline-block;
 }
 
-/* ---------- NAV ---------- */
+/* NAVIGATION DETAILS */
 header.statusbar{
   position:fixed; top:0; left:0; right:0;
   z-index:100;
@@ -139,7 +139,7 @@ nav.navlinks a::after{content:"]";color:var(--text-faint);}
   .nav-toggle{display:block;}
 }
 
-/* ---------- HERO ---------- */
+/*  HERO BANNER */
 .hero{
   min-height:100svh;
   display:flex;
@@ -220,7 +220,7 @@ nav.navlinks a::after{content:"]";color:var(--text-faint);}
 .btn-ghost{color:var(--text); }
 .btn-ghost:hover{border-color:var(--cyan); color:var(--cyan);}
 
-/* ---------- SECTION SHELL ---------- */
+/* SECTION SHELL  */
 section{
   padding:96px 0;
   border-top:1px solid var(--line-soft);
@@ -252,7 +252,7 @@ section{
 }
 .reveal.in{opacity:1; transform:translateY(0);}
 
-/* ---------- ABOUT ---------- */
+/*  ABOUT ME */
 .about-grid{
   display:grid;
   grid-template-columns:1.3fr 1fr;
@@ -292,7 +292,7 @@ section{
   padding:5px 10px;
 }
 
-/* ---------- SKILLS / DIAGNOSTIC PANELS ---------- */
+/* SKILLS PANEL */
 .panels{display:grid; grid-template-columns:repeat(2,1fr); gap:20px;}
 @media (max-width:700px){ .panels{grid-template-columns:1fr;} }
 .panel{
@@ -320,7 +320,7 @@ section{
 }
 .skill::before{content:"●"; color:var(--cyan); font-size:8px;}
 
-/* ---------- CERTS ---------- */
+/*  CERTS DETAILS */
 .cert-row{display:grid; grid-template-columns:repeat(3,1fr); gap:18px;}
 @media (max-width:800px){ .cert-row{grid-template-columns:1fr;} }
 .cert-card{
@@ -350,7 +350,7 @@ section{
 .cert-card h3{margin:0 0 8px; font-size:17px; font-family:var(--font-mono);}
 .cert-card p{margin:0; color:var(--text-dim); font-size:13.5px;}
 
-/* PROJECTS / WORK ORDERS */
+/* PROJECT DETAILS */
 .orders{display:flex; flex-direction:column; gap:20px;}
 .order{
   background:var(--bg-panel);
